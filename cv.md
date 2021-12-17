@@ -29,3 +29,17 @@ GSU named after F.Skariny, Faculty of Physical Culture and Health
 3. Phone number - +375296824285
 4. Email - natalya-medvedeva95@mail.ru
 
+*Completed courses*
+
+Way up - Web layout designer: the beginning - 2021.10
+
+---
+
+*Skills*
+1. HTML, CSS, Adobe Photoshop, Figma - basic level
+
+---
+
+*Сompleted projects*
+
+https://natashamedvedeva95.github.io/
