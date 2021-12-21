@@ -1,3 +1,142 @@
-h1 {
-    color: red;
+*{
+    margin: 0;
+   
+}
+body{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ADD8E6;
+    padding: 60px 0 30px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    background: url(.//assets/img/main.png);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s infinite linear;
+}
+
+.body_p{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.body_a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.nav_li{
+    padding-right: 10px;
+}
+
+.nav_p{
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header{
+    position: relative;
+    padding: 80px 0 0px;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1000px;
+    min-height: 900px;
+}
+
+.block{
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.first_block{
+    background-color: #87CEFA;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.second_block{
+    background-color: #BC8F8F;
+    color: white;
+}
+
+.wrapper_header{
+    display: flex;
+    padding: 40px 0 0px;
+}
+
+.block_p{
+    text-align: center;
+    padding: 100px 40px 40px ;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.main{
+    width: 1000px;
+    min-height: 300px;
+    background: url(.//assets/img/bgmain2.jpg) center center/cover no-repeat;
+}
+
+.white{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.work{
+    background-color: #FFE4C4;
+}
+
+
+@keyframes color-change{
+    0%{
+        color: #EE82EE;
+    }
+
+    50%{
+        color: #00BFFF;
+    }
+
+    100%{
+        color: #EE82EE;
+    }
+}
+
+.animation-text{
+    animation: color-change 3s infinite;
+}
+
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
 }
